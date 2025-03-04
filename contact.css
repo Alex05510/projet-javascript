@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header .container {
+    margin: 1rem;
+}
+
+ul {
+    display: flex; 
+    gap: 2rem;
+    list-style: none;
+    justify-content:space-evenly;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration:underline;
+    color: #ff0000;
+}
